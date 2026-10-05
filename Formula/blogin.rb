@@ -1,24 +1,24 @@
 class Blogin < Formula
   desc "Fast static blog generator with no runtime dependencies"
   homepage "https://github.com/gdonald/Blogin"
-  version "0.9.4"
+  version "0.9.5"
   license "MIT"
 
   on_macos do
     # One binary covers Apple silicon and Intel.
-    url "https://github.com/gdonald/Blogin/releases/download/v0.9.4/blogin-macos-universal"
-    sha256 "6fc595dcd8ba0c3ecd1f8ccbc4a02c1fdcd19bb3d3cd44c2b03a8f05ce525193"
+    url "https://github.com/gdonald/Blogin/releases/download/v0.9.5/blogin-macos-universal"
+    sha256 "c5b2aaab3865c73dcef20a368f82f8d82f640bc870a5257dfaa395bf4f8ab97e"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/gdonald/Blogin/releases/download/v0.9.4/blogin-linux-x86_64"
-      sha256 "ee68dbc1a04a9c972e0ebca5c28dca228fa3b4da074f15064a75c6a50989fc4a"
+      url "https://github.com/gdonald/Blogin/releases/download/v0.9.5/blogin-linux-x86_64"
+      sha256 "08194e7146d6e76bc21fa0823099d732ddc0d11ffbee1f17e531dc393f9a6109"
     end
 
     on_arm do
-      url "https://github.com/gdonald/Blogin/releases/download/v0.9.4/blogin-linux-arm64"
-      sha256 "44c9efb59c8506ecff80e8c76d81cc4807da1564f8f3625c56780fee7895de67"
+      url "https://github.com/gdonald/Blogin/releases/download/v0.9.5/blogin-linux-arm64"
+      sha256 "597506500f6d47ca116b8ca9c9b82390b6765a4d73205ba78a454933f41b4345"
     end
   end
 
